@@ -1,6 +1,6 @@
 <?php
 	$link=mysqli_connect("localhost","root","");
-	$db=mysqli_select_db($link,"bey");
+	$db=mysqli_select_db($link,"dev");
 	$user=$_POST['username'];
 	$ques=$_POST['question'];
 	$ans=$_POST['answer'];

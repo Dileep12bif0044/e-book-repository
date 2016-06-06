@@ -1,6 +1,6 @@
 	<?php
 
-	define('DB_NAME','bey');
+	define('DB_NAME','dev');
 	define('DB_USER','root');
 	define('DB_PASSWORD','');
 	define('DB_HOST','localhost');
@@ -23,7 +23,7 @@
 	}
 	else {
 		echo "data entered successfuly";
-		header("Location: zoo.html");
+		header("Location: index.html");
 	}
 	
 	mysql_close();

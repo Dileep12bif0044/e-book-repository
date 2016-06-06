@@ -1,5 +1,5 @@
 <?php
-	$files = array_values(array_filter(scandir("C:/xampp/htdocs/sachin/rathor"), function($file) {
+	$files = array_values(array_filter(scandir("C:/xampp/htdocs/dileep/kumar"), function($file) {
    	 return !is_dir($file);
 	}));
 	$sac=$_POST['view'];
@@ -9,7 +9,7 @@
 		exit(1);
 	}
 	$i=0;
-	$arr=array('sachin');
+	$arr=array('dileep');
 	foreach($files as $file){
    	 // echo $file;
 
@@ -25,7 +25,7 @@
 	// echo "<script>
 	// 		document.getElementById(\"sss\").innerHTML=$i;</script>";
 			for($j=1;$j<=$i;$j++){	
-			echo "<a href='rathor/$arr[$j]'>".$arr[$j]. "</a><br>";
+			echo "<a href='kumar/$arr[$j]'>".$arr[$j]. "</a><br>";
 			}
    		
 ?>

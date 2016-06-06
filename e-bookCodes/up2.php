@@ -1,6 +1,6 @@
 <?php
 
-    $pdfPath = "c:/xampp/htdocs/sachin/";
+    $pdfPath = "c:/xampp/htdocs/dileep/";
     $maxSize = 102400000000;
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['upload_pdf'])) {   
 	    if (is_uploaded_file($_FILES['filepdf']['tmp_name'])) {

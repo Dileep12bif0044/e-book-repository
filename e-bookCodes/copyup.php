@@ -4,7 +4,7 @@
 	$yop=$_POST['yop'];
 	// echo $yop;
 	$link=mysqli_connect("localhost","root","");
-	$db=mysqli_select_db($link,"bey");
+	$db=mysqli_select_db($link,"dev");
 	$in="insert into copyright (book,auther,yop) values ('$book','$auther','$yop')";
 	$res=mysqli_query($link,$in);
 	echo "Data Uploaded Successfully";

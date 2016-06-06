@@ -6,7 +6,7 @@
 		<h3>printing name & calculating sum of two numbers</h3>
 		<?php
 			echo "Hello...!!!\n";
-			echo "I'm Sachin Rathor\n";
+			echo "I'm Dileep Kumar\n";
 			$a=5;
 			$b=4;
 			$x=$a+$b;

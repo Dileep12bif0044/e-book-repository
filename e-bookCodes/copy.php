@@ -1,6 +1,6 @@
 <?php
 	$link=mysqli_connect("localhost","root","");
-	$db=mysqli_select_db($link,"bey");
+	$db=mysqli_select_db($link,"dev");
 	$q1="select * from copyright";
 	$res=mysqli_query($link,$q1);
 	echo "<b>Book Name</b>"."--------------"."<b>Auther Name</b>"."---------------"."<b>Year Of Publication</b><br>";
